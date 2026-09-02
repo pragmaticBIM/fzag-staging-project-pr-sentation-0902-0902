@@ -1,0 +1,20 @@
+id: fzag:value/subtyp
+name:
+  de: Subtyp_FZAG_Allgemein_EMAS
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - EMAS
+  fr: []
+  it: []
+  en: []

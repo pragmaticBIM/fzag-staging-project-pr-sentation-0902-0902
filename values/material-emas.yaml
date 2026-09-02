@@ -1,0 +1,21 @@
+id: fzag:value/material-emas
+name:
+  de: Material EMAS
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - zellular Beton
+  - Schaumbloecke
+  fr: []
+  it: []
+  en: []

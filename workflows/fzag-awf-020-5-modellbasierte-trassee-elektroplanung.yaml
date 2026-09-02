@@ -1,0 +1,29 @@
+id: fzag:workflow/fzag-awf-020-5-modellbasierte-trassee-elektroplanung
+sort_order: 38
+code: FZAG-AWF-020.2
+name:
+  de: Modellbasierte Trassee Elektroplanung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Modellbasierte Trassee Elektroplanung als Grundlage für die Koordination.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: wip
+needed_in_domain:
+- fzag:domain/elektroanlagen-o
+- fzag:domain/enteisung
+- fzag:domain/entwaesserung
+- fzag:domain/fernwaerme
+- fzag:domain/kunstbauten-o
+- fzag:domain/oberbau
+- fzag:domain/technische-ausruestung
+- fzag:domain/trinkwasser
+- fzag:domain/unterbau
+- fzag:domain/werkleitungen-medium
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+workflow_group: Optional

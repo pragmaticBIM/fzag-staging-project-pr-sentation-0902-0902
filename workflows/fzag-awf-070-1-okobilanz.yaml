@@ -1,0 +1,21 @@
+id: fzag:workflow/fzag-awf-070-1-okobilanz
+sort_order: 22
+code: FZAG-AWF-070.1
+name:
+  de: Ökobilanz
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Berechnung der Ökobilanz für den Oberbau basierend auf die im as-planned Modell erfasste Materialien und Mengen.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: wip
+needed_in_domain:
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-070-zirkulares-und-umweltgerechtes-bauen
+workflow_group: Optional

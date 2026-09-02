@@ -1,0 +1,22 @@
+id: fzag:value/referenzpunkt
+name:
+  de: Subtyp_FZAG_Allgemein_Referenzpunkt
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Referenzpunkt
+  fr:
+  - Referenzpunkt
+  it:
+  - Referenzpunkt
+  en: []

@@ -1,0 +1,34 @@
+id: fzag:workflow/fzag-awf-050-2d-planableitungen-aus-dem-modell
+sort_order: 19
+code: FZAG-AWF-050
+name:
+  de: 2D-Planableitungen aus dem Modell
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 'Alle für die Genehmigung erforderlichen Planunterlagen sind aus dem 3D-Modell abzuleiten 
+
+    Grundlage für optimierte Betriebs- und Unterhaltsplanung des Bauwerks. Die detaillierten Anforderungen an die Pläne sind durch FZAG zu liefern.'
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/enteisung
+- fzag:domain/fernwaerme
+- fzag:domain/gelande-dtm
+- fzag:domain/kunstbauten-o
+- fzag:domain/rohrpost
+- fzag:domain/sprenganlage
+- fzag:domain/werkleitungen-medium
+- fzag:domain/airfield-technics
+comment: ''
+workflow_group: Optional
