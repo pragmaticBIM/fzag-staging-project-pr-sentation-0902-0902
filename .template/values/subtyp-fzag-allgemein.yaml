@@ -1,0 +1,20 @@
+id: fzag:value/subtyp-fzag-allgemein
+name:
+  de: Subtyp_FZAG_Allgemein_BlastFence
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Blast Fence
+  fr: []
+  it: []
+  en: []

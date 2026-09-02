@@ -1,0 +1,22 @@
+id: fzag:value/material-materialersatz
+name:
+  de: Material Materialersatz
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - primär Stabi
+  - UG 0/45
+  - Schüttmaterial
+  fr: []
+  it: []
+  en: []

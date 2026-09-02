@@ -1,0 +1,84 @@
+id: fzag:element/blast-fence
+sort_order: 48
+status: wip
+name:
+  de: Blast Fence
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/technische-ausruestung
+definition:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: ''
+entity_ifc4: IfcBuildingElementProxy
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: ''
+attributes:
+- name: PredefinedType
+  sort_order: 1
+  pset: null
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: null
+  unit: null
+  allowed_values: fzag:value/predefined-type
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Subtyp
+  sort_order: 2
+  pset: FZAG_ALLGEMEIN
+  definition:
+    de: Spezifiziert um welches Element es sich handelt. Anhand von diesem Property, wird die Anwendbarkeit (Applicability) im IDS geprüft.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/subtyp-fzag-allgemein
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '53'
+  - '52'
+  - '51'
+  - '41'
+  - '33'
+  - '32'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active

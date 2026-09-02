@@ -1,0 +1,10 @@
+snapshot_version: 1
+master_slug: master-standard
+master_version: v20260828-01
+generated_at: '2026-09-02T06:47:35Z'
+entity_counts:
+  domains: 24
+  elements: 48
+  phases: 1
+  values: 150
+  workflows: 43

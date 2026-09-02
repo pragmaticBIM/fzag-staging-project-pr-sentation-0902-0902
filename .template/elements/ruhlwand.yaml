@@ -1,0 +1,53 @@
+id: fzag:element/ruhlwand
+sort_order: 40
+status: active
+name:
+  de: Rühlwand
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/bauhindernisse
+definition:
+  de: Als zusammenhängendes Wandvolumen zur Darstellung der Baugrubensicherung modellieren. Es muss nicht zwingend zwischen Trägern und Ausfachung unterschieden. Das Wandobjekt beschreibt ausschliesslich
+    Ausdehnung, Lage und Dicke der Sicherung im Erdreich.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcWall
+entity_ifc4_3: IfcWall
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcWall
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Spezifiziert um welches Element es sich handelt.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 1

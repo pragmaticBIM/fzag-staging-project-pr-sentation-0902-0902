@@ -1,0 +1,34 @@
+id: fzag:workflow/fzag-awf-130-life-cycle-datenmanagement
+sort_order: 36
+code: FZAG-AWF-130
+name:
+  de: Life-Cycle-Datenmanagement
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Der digitale Zwilling schafft Mehrwert im Projektmanagement, Betrieb und Wartung, Sicherheitsaspekten und stellt Echtzeitdaten bereit, um das Lifecycle Management der Anlagen zu verändern.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/airfield-technics
+- fzag:domain/elektroanlagen-m
+- fzag:domain/enteisung
+- fzag:domain/fernwaerme
+- fzag:domain/gebaude-m
+- fzag:domain/3d-gebaude
+- fzag:domain/kunstbauten-o
+- fzag:domain/rohrpost
+- fzag:domain/sprenganlage
+- fzag:domain/werkleitungen-medium
+comment: ''
+workflow_group: AWF FZAG

@@ -1,13 +1,12 @@
-name: New Elementplan Project
-slug: new-project
-client: client-key
-
+name: Präsentation 0902
+slug: pr-sentation-0902-0902
+client: fzag-staging
+project_number: 0902
 languages:
-  - de
-  - en
-
+- de
 default_language: de
-
 description:
-  de: Neues Elementplan-Projekt — Metadaten beim Anlegen überschreiben
-  en: New Elementplan project — metadata replaced on project creation
+  de: Präsentation 0902
+  en: Präsentation 0902
+master_slug: master-standard
+master_version: v20260828-01

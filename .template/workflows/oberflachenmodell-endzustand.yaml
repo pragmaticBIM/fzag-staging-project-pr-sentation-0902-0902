@@ -1,0 +1,28 @@
+id: fzag:workflow/oberflachenmodell-endzustand
+code: FZAG-AWF-020.9
+name:
+  de: Digitales Terrainmodell Endzustand
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 'Der Endzustand des Bauwerks bzw. des Projektperimeters ist als digitales Terrainmodell (DTM) zu projektieren und zu liefern. Das Terrainmodell muss sämtliche für den Endzustand relevanten Geländeoberflächen,
+    Böschungen, Randabschlüsse, befestigten Flächen sowie Höheninformationen enthalten.
+
+    Die Abgabe hat in folgenden Formaten zu erfolgen:
+
+    - 3D-DTM als digitales Geländemodell mit vollständiger Geländetriangulation (TIN)
+
+    - DXF/DWG zur Weiterverarbeitung in CAD-Systemen
+
+    - IFC als koordinierter, georeferenzierter Datenaustausch für BIM- und GIS-Anwendungen'
+  fr: ''
+  it: ''
+  en: ''
+workflow_group: Standard
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/gelande-dtm
+comment: ''

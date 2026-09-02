@@ -1,0 +1,22 @@
+id: fzag:element/fugen
+sort_order: 47
+status: wip
+name:
+  de: Fugen
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/oberbau
+definition:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: ''
+entity_ifc4: ''
+entity_ifc4_3: ''
+picture_link: null
+model_link: null
+applicability: ''
+attributes: []

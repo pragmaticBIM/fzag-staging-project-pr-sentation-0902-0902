@@ -1,0 +1,21 @@
+id: fzag:value/predefined-type
+name:
+  de: PredefinedType Blast Fence
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - STATIONARY
+  - MECHANICAL
+  fr: []
+  it: []
+  en: []

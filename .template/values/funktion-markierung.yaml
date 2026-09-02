@@ -1,0 +1,44 @@
+id: fzag:value/funktion-markierung
+name:
+  de: Funktion Markierung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Gate Number
+  - Ground Handling
+  - Holding Position
+  - Lead In/Out
+  - Nose Block
+  - Pre-Threshold
+  - Push Back
+  - Runway Designation Markings
+  - Runway Edge
+  - Stand Number
+  - Stand Safety Line
+  - Taxiway Centerline
+  - Taxiway Edge
+  - Threshold
+  - Touchdown Zone
+  - Parkraumordnung
+  - Fahrstreifen
+  - Halt-/Wartepflicht
+  - Sperrfläche
+  - Richtungshinweis
+  - Spurinformation
+  - Fussgaengeruebergang
+  - Radweg
+  - Busfahrstreifen
+  - Umleitung
+  fr: []
+  it: []
+  en: []
