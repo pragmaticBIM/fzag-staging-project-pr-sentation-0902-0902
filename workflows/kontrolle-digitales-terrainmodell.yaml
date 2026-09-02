@@ -1,0 +1,30 @@
+id: fzag:workflow/kontrolle-digitales-terrainmodell
+code: FZAG-AWF-110.2
+name:
+  de: Kontrolle digitales Terrainmodell
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 'Das digitale Terrainmodell der ausgeführten Oberfläche dient der Qualitätssicherung, der geometrischen Kontrolle der Ausführung sowie der Dokumentation des realisierten Endzustandes. Das Modell umfasst
+    sämtliche relevanten Oberflächengeometrien wie befestigte Flächen, Bankette, Böschungen, Randabschlüsse sowie die zugehörigen Höheninformationen.
+
+    Das DTM ermöglicht den Vergleich zwischen dem projektierten Zustand (As-Planned) und dem ausgeführten Zustand (As-Built) hinsichtlich:
+
+    Das Modell der ausgeführten Oberfläche ist in folgenden Formaten bereitzustellen:
+
+    - 3D-DTM (TIN) als digitales Geländemodell
+
+    - DXF zur Weiterverarbeitung in CAD- und Vermessungssystemen
+
+    - IFC als georeferenziertes Austauschmodell für BIM-, GIS- und Betriebssysteme'
+  fr: ''
+  it: ''
+  en: ''
+workflow_group: Standard
+parent_workflow: fzag:workflow/fzag-awf-110-bauwerksdokumentation
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/gelande-dtm
+comment: ''

@@ -1,0 +1,21 @@
+id: fzag:domain/gelande-dtm
+sort_order: 1
+name:
+  de: Gelände (DTM)
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Basismodell FZAG - Das Terrainmodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden (IST-Zustand).
+
+
+    Projektmodell - Das Terrainmodell muss sämtliche für den Endzustand relevanten Geländeoberflächen, Böschungen, Randabschlüsse, befestigten Flächen sowie Höheninformationen enthalten (SOLL-Zustand).'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_DTM_IST{Projekt-Nr.}_DTM_SOLL'
+  fr: ''
+  it: ''
+  en: ''

@@ -1,0 +1,189 @@
+id: fzag:element/fundament
+sort_order: 41
+status: active
+name:
+  de: Fundament
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/bauhindernisse
+definition:
+  de: Ein Fundament ist ein flächiges oder blockförmiges Gründungselement, das die Lasten eines Bauwerks aufnimmt und gleichmäßig an den Baugrund oder an Pfähle weiterleitet. Fundamente können als Einzel‑,
+    Streifen‑ oder Pfahlkopfplatten ausgebildet sein und gehören zur permanenten Tragstruktur eines Bauwerks.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcFooting
+entity_ifc4_3: IfcFooting
+picture_link: null
+applicability: entity_ifc4=IfcFooting AND FZAG_Allgemein.Subtyp=Fundament
+attributes:
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-kranfundament
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-090-9-bauhindernisse
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: true
+  status: active
+  sort_order: 1
+- name: PredefinedType
+  sort_order: 2
+  pset: null
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: null
+  unit: null
+  allowed_values: fzag:value/predefinedtype
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinFund_System
+  sort_order: 3
+  pset: FZAG_BAUHINDERNIS_FUNDAMENT
+  definition:
+    de: Art und Herstellweise des Fundaments.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/subtyp-anker
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinFund_Profil
+  sort_order: 4
+  pset: FZAG_BAUHINDERNIS_FUNDAMENT
+  definition:
+    de: geometrische Grundform des Fundaments, z. B. rechteckig, quadratisch, streifenförmig oder plattenartig, welche die Lastverteilung beeinflusst.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/typ-profil-fundament
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinFund_Material
+  sort_order: 5
+  pset: FZAG_BAUHINDERNIS_FUNDAMENT
+  definition:
+    de: Werkstoff des Fundaments, in der Regel (Stahl‑)Beton, gegebenenfalls mit Angaben zur Bewehrung und Betonfestigkeitsklasse.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/material-fundament
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinFund_Status
+  sort_order: 6
+  pset: FZAG_BAUHINDERNIS_FUNDAMENT
+  definition:
+    de: dauerhaft im Boden verbleiben
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/bauhindernis-status
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active

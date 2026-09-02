@@ -1,0 +1,217 @@
+id: fzag:element/pfahl
+sort_order: 44
+status: active
+name:
+  de: Pfahl
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/bauhindernisse
+definition:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: ''
+entity_ifc4: IfcPile
+entity_ifc4_3: IfcPile
+picture_link: null
+applicability: entity_ifc4=IfcPile AND FZAG_ALLGEMEIN.Subtyp=Pfahl
+attributes:
+- name: PredefinedType
+  sort_order: 1
+  pset: null
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: null
+  unit: null
+  allowed_values: fzag:value/pile
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '52'
+  - '61'
+  - '53'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Subtyp
+  sort_order: 2
+  pset: FZAG_ALLGEMEIN
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: null
+  unit: null
+  allowed_values: fzag:value/subtyp-fzag-allgemein-spundwand
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: true
+  status: active
+- name: BauHinPfahl_System
+  sort_order: 2
+  pset: FZAG_BAUHINDERNIS_PFAHL
+  definition:
+    de: Art und Herstellweise des Pfahls, z. B. Bohrpfahl, Rammpfahl, Vollverdrängungspfahl oder Mikropfahl.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/typ-system-pfahl
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinPfahl_Profil
+  sort_order: 3
+  pset: FZAG_BAUHINDERNIS_PFAHL
+  definition:
+    de: Querschnittsform des Pfahls an, z. b. rund, quadratisch, rechteckig oder als Stahlprofil (Rohr, H‑Profil).
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/profil-pfahl
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinPfahl_Material
+  sort_order: 4
+  pset: FZAG_BAUHINDERNIS_PFAHL
+  definition:
+    de: Werkstoff des Pfahls, in der Regel Beton oder Stahl, gegebenenfalls mit Bewehrung oder Korrosionsschutz.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/material-pfahl
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinPfahl_Status
+  sort_order: 5
+  pset: FZAG_BAUHINDERNIS_PFAHL
+  definition:
+    de: dauerhaft im Boden verbleiben
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: null
+  allowed_values: fzag:value/bauhindernis-status
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: BauHinPfahl_Laenge
+  sort_order: 6
+  pset: FZAG_BAUHINDERNIS_PFAHL
+  definition:
+    de: Laenge in Meter
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: m
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '61'
+  - '53'
+  - '52'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active

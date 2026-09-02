@@ -1,0 +1,29 @@
+id: fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+sort_order: 39
+code: FZAG-AWF-020.3
+name:
+  de: Modellbasierte Kontrolle der Projektierung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Laufende Kontrolle der modellierten Infrastrukturen während der Projektierung.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/werkleitungen-medium
+- fzag:domain/elektroanlagen-o
+- fzag:domain/enteisung
+- fzag:domain/entwaesserung
+- fzag:domain/fernwaerme
+- fzag:domain/kunstbauten-o
+- fzag:domain/oberbau
+- fzag:domain/technische-ausruestung
+- fzag:domain/trinkwasser
+- fzag:domain/unterbau
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+workflow_group: Standard

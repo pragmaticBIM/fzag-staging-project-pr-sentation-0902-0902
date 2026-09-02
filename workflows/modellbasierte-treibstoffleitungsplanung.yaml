@@ -1,0 +1,37 @@
+id: fzag:workflow/modellbasierte-treibstoffleitungsplanung
+code: FZAG-AWF-020.8
+name:
+  de: Beschriftung Werkleitungen
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 'für Werkleitungen: Material und Durchmesser
+
+    Entwässerung:
+
+    - Leitungen: Gefälle in %
+
+    - Kontrollschächte: KS-Nummer (gemäss ZANIS), Koten (Deckel, Einläufe, Auslauf, Sohle)
+
+    Elektro:
+
+    - Rohr: oben / unten'
+  fr: ''
+  it: ''
+  en: ''
+workflow_group: Standard
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+picture_link: null
+status: deprecated
+comment: ''
+needed_in_domain:
+- fzag:domain/elektroanlagen-m
+- fzag:domain/elektroanlagen-o
+- fzag:domain/enteisung
+- fzag:domain/fernwaerme
+- fzag:domain/entwaesserung
+- fzag:domain/rohrpost
+- fzag:domain/sprenganlage
+- fzag:domain/trinkwasser
+- fzag:domain/werkleitungen-medium

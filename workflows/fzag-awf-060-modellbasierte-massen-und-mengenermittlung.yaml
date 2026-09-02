@@ -1,0 +1,32 @@
+id: fzag:workflow/fzag-awf-060-modellbasierte-massen-und-mengenermittlung
+sort_order: 20
+code: FZAG-AWF-060
+name:
+  de: Modellbasierte Massen- und Mengenermittlung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: "Die digitalen Fachmodelle dienen als Grundlage für die transparente, nachvollziehbare und effiziente Ermittlung von Massen und Mengen während Planung, Ausschreibung, Vergabe und Ausführung.\nDie\
+    \ Mengen sollen direkt aus den Fachmodellen abgeleitet und für Auswertungen zur Verfügung gestellt werden.\nDie relevanten Objekte sind mit den erforderlichen Attributen und Klassifizierungen zu versehen,\
+    \ sodass Längen, Flächen, Volumen, Stückzahlen und weitere Mengeneinheiten automatisiert ausgewertet werden können.\nFür die Durchführung der Mengenermittlung ist ein BIM-Viewer mit integrierter Datentabelle\
+    \ und Filterfunktion bereitzustellen. \nDie Mengenermittlungen müssen jederzeit anhand der Modellgeometrie und der zugehörigen Objektattribute nachvollziehbar sein."
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/enteisung
+- fzag:domain/fernwaerme
+- fzag:domain/kunstbauten-o
+- fzag:domain/werkleitungen-medium
+- fzag:domain/airfield-technics
+comment: ''
+workflow_group: Standard

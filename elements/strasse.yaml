@@ -1,0 +1,51 @@
+id: fzag:element/strasse
+sort_order: 3
+status: active
+name:
+  de: Strasse
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain: []
+definition:
+  de: Ein IfcRoad repräsentiert eine gesamte Strasse als bauliche Anlage. Dazu gehören Trasse, Fahrbahnen, Geh- und Radwege, Entwässerung, Ausstattungselemente und begleitende Bauwerke. Das Objekt dient
+    als übergeordnetes Container-Element für die Modellierung von Strassenprojekten in IFC.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuilding
+entity_ifc4_3: IfcRoad
+picture_link: null
+applicability: entity_ifc4=IfcBuilding
+attributes:
+- name: Name
+  pset: null
+  definition:
+    de: Bezeichnung der Strasse
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 1
